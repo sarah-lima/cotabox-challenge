@@ -1,26 +1,26 @@
 <template>
   <div>
     <Menu />
-    <DataChart />
+    <Container />
   </div>
 </template>
 
 <script>
-import DataChart from "./components/DataChart.vue";
+import Container from './components/container/Container.vue';
 import Menu from './components/menu/Menu.vue'
 
 export default {
   name: "App",
   components: {
-    DataChart,
-    Menu
+    Menu,
+    Container
   },
 };
 </script>
 
 <style>
 #app, body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
